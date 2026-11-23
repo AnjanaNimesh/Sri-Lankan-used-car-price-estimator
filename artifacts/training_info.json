@@ -1,0 +1,44 @@
+{
+  "rf_params": {
+    "n_estimators": 200,
+    "min_samples_leaf": 2,
+    "max_features": 0.7,
+    "max_depth": 40
+  },
+  "xgb_params": {
+    "subsample": 0.7,
+    "reg_lambda": 5,
+    "n_estimators": 800,
+    "min_child_weight": 3,
+    "max_depth": 8,
+    "learning_rate": 0.03,
+    "colsample_bytree": 0.9
+  },
+  "ann_params": {
+    "hidden_layer_sizes": [
+      128,
+      64
+    ],
+    "alpha": 0.01,
+    "learning_rate_init": 0.001
+  },
+  "blend_weight_rf": 0.5,
+  "stack_meta_weights": {
+    "Random Forest": 0.11220279937974349,
+    "XGBoost": 0.6945020533221626,
+    "Ridge": 0.20100128234661602
+  },
+  "n_rows_clean": 8573,
+  "cleaning_log": {
+    "raw_rows": 10388,
+    "duplicates_removed": 1814,
+    "price_typos_removed": 1,
+    "mileage_placeholders_imputed": 19,
+    "engine_typos_imputed": 19,
+    "clean_rows": 8573
+  },
+  "n_train": 6858,
+  "n_test": 1715,
+  "sklearn": "1.9.1",
+  "xgboost": "3.4.1"
+}
