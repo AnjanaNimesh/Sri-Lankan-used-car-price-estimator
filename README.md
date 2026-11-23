@@ -1,4 +1,4 @@
-# Sri Lankan used-car price estimator (ikman.lk): ensemble learning
+# Sri Lankan used-car price estimator : ensemble learning
 
 Hands-On Ensemble Learning Project: **Bagging vs Boosting vs Stacking vs Hybrid** on a local Sri Lankan dataset.
 
