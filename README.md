@@ -2,7 +2,7 @@
 
 Hands-On Ensemble Learning Project: **Bagging vs Boosting vs Stacking vs Hybrid** on a local Sri Lankan dataset.
 
-* **Live dashboard:** _<paste your Streamlit Community Cloud URL here>_
+* **Live dashboard:** _<paste https://sri-lankan-used-car-price-estimator.streamlit.app/>_
 * **Notebook:** [`SL_Vehicle_Price_Ensemble_Learning.ipynb`](SL_Vehicle_Price_Ensemble_Learning.ipynb)
 
 ## Dataset
